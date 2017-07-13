@@ -5,7 +5,13 @@
 
 ## List open files (lsof)
 
-#### Get all node processes
+#### Get all network files open
+- `lsof -i`
+
+#### Get all network files open on a specific port
+- `lsof -i TCP:22`
+
+#### Get all node processes open
 - `lsof -i | grep node`
 
 ## Permissions
