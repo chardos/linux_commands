@@ -3,6 +3,11 @@
 #### Read a file
 - `cat <filename>`
 
+## List open files (lsof)
+
+#### Get all node processes
+- `lsof -i | grep node`
+
 ## Permissions
 
 #### See permissions on files and directories
