@@ -26,6 +26,9 @@ There are three types of users, (u)sers, (g)roups, (o)thers.
 
 ## Crontab
 
+#### Crontab - list a users crontab
+- `sudo crontab -u <username> -l`
+
 #### Crontab - edit a users crontab
 - `sudo crontab -u <username> -e`
 
