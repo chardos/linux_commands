@@ -3,6 +3,9 @@
 #### Read a file
 - `cat <filename>`
 
+#### See previous commands
+- `history`
+
 ## List open files (lsof)
 
 #### Get all network files open
